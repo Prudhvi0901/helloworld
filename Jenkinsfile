@@ -64,7 +64,7 @@ pipeline {
 
 def initialize() {
     env.SYSTEM_NAME = "DSO"
-    env.AWS_REGION = "ap-south-1"
+    env.AWS_REGION = "us-east-1"
     env.REGISTRY_URL = "https://912661153448.dkr.ecr.us-east-1.amazonaws.com"
     env.MAX_ENVIRONMENTNAME_LENGTH = 32
     setEnvironment()
